@@ -24,7 +24,10 @@ module.exports = {
     alias: {// changes the path to user require('Greeter') instead of require('./components/Greeter') 
       Main: 'app/components/Main.jsx',
       Navigation: 'app/components/Navigation.jsx',
-      applicationStyles: 'app/styles/app.scss'
+      applicationStyles: 'app/styles/app.scss',
+      About: 'app/components/About.jsx',
+      Timer: 'app/components/Timer.jsx',
+      Countdown: 'app/components/Countdown.jsx'
     },
     extensions: ['', '.js', '.jsx']
   },

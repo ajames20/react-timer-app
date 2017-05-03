@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
-import Navigation from 'Navigation';
+
+import Navigation from 'Navigation'
+
 
 class Main extends Component {
   render() {
     return (
       <div>
         <Navigation />
-        <h1>Hello World!</h1>
+        <div className="row">
+          <div className="columns medium-6 large-4 small-centered">
+            {this.props.children}
+          </div>
+        </div>
       </div>
     );
   }
