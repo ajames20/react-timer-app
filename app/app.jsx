@@ -24,8 +24,3 @@ ReactDOM.render(
   </Router>,
   document.getElementById('app')
 )
-
-// <Route path="/" component={Main}>
-//       <Route path="about" component={About} />
-//       <Route path="example" component={Example} />
-//       <IndexRoute component={Weather} />
