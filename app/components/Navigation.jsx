@@ -9,9 +9,9 @@ class Navigation extends Component {
         <div className="top-bar-left">
           <ul className="menu">
             <li className="menu-text">React Timer App</li>
-            <li><IndexLink to="/timer" activeClassName="active" activeStyle={{ fontWeight: 'bold' }}>Timer</IndexLink></li>
-            <li><IndexLink to="/countdown" activeClassName="active-" activeStyle={{ fontWeight: 'bold' }}>Countdown</IndexLink></li>
-            <li><IndexLink to="/about" activeClassName="active" activeStyle={{ fontWeight: 'bold' }}>About</IndexLink></li>
+            <li><IndexLink to="/" activeClassName="active-link">Timer</IndexLink></li>
+            <li><IndexLink to="/countdown" activeClassName="active-link">Countdown</IndexLink></li>
+            <li><IndexLink to="/about" activeClassName="active-link">About</IndexLink></li>
           </ul>
         </div>
         <div className="top-bar-right">
