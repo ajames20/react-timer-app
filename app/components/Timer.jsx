@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import Clock from 'Clock'
 
 class Timer extends Component {
   render() {
     return (
-      <div>
-        <h3>Timer Component</h3>
+      <div className="text-center">
+        <Clock totalSeconds={615} />
       </div>
     )
   }
