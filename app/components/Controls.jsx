@@ -5,12 +5,10 @@ class Controls extends Component {
     super(props)
   }
 
-
-
   render() {
     let { countdownStatus } = this.props
 
-    renderStartStopButton = () => {
+    let renderStartStopButton = () => {
       if (countdownStatus === 'started') {
         return <button className="button secondary">Pause</button>
       } else if (countdownStatus === 'paused') {
