@@ -29,7 +29,7 @@ class Countdown extends Component {
     }
   }
 
-  componentWillUnmount() {
+  componentWillUnmount() { //Clears timer if you leave page
     clearInterval(this.timer)
     this.time = undefined
   }
