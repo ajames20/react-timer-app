@@ -21,7 +21,7 @@ class Controls extends Component {
     return (
       <div className="controls">
         {renderStartStopButton()}
-        <button className="button alert" onClick={this.onStatusChange('stopped')} > Clear</button>
+        <button className="button alert" onClick={this.onStatusChange('stopped')}>Clear</button>
       </div>
     )
   }
