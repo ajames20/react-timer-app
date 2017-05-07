@@ -1,4 +1,9 @@
 @import "base/variables.scss";
+// Fondation
+@import "base/foundation-settings";
+@import "foundation";
+@include foundation-everything;
+// Components
 @import "components/navigation.scss";
 @import "components/clock.scss";
 @import "components/countdownform.scss";

@@ -1,4 +1,5 @@
 var webpack = require('webpack')
+var path = require('path')
 
 module.exports = {
   entry: [
@@ -45,6 +46,11 @@ module.exports = {
         test: /\.jsx?$/,// regex to apply babel loader to all .jsx files
         exclude: /(node_modules|bower_components)/ // exludes these files so they are not run through webpack
       }
+    ]
+  },
+  sassLoader: {
+    includePaths: [
+      path.resolve(__dirname, './node_modules/foundation-sites/scss')
     ]
   },
   devtool: 'cheap-module-eval-source-map' // source maps for debugging
