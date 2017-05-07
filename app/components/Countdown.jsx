@@ -6,7 +6,6 @@ import Controls from 'Controls'
 class Countdown extends Component {
   constructor() {
     super()
-
     this.state = {
       count: 0,
       countdownStatus: 'stopped'
